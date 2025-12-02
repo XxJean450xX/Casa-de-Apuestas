@@ -1,0 +1,47 @@
+# ----------------------------------------
+# Node modules
+# ----------------------------------------
+client/node_modules/
+server/node_modules/
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Builds
+client/build/
+server/build/
+dist/
+
+# Environment files
+.env
+.env.*
+
+
+# SQLite database (opcional, si no quieres subir la DB creada)
+server/db/betmaster.db
+
+# Cache / Temp
+*.cache
+.cache/
+.tmp/
+temp/
+tmp/
+
+# Editor folders
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated lock files (si no quieres subirlos)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
